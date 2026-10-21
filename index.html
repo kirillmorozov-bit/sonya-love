@@ -3,49 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#170d16">
+  <meta name="theme-color" content="#080e1b">
   <title>Для моей Сонечки ❤️</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="nebula nebula-one" aria-hidden="true"></div>
+  <div class="nebula nebula-two" aria-hidden="true"></div>
   <main class="scene">
-    <p class="eyebrow">МАЛЕНЬКИЙ СЮРПРИЗ ДЛЯ ТЕБЯ</p>
+    <p class="eyebrow">МАЛЕНЬКАЯ ВСЕЛЕННАЯ ДЛЯ ТЕБЯ</p>
     <section class="card" aria-live="polite">
       <div class="envelope-wrap" id="envelopeWrap">
         <button class="envelope" id="openEnvelope" aria-label="Открыть письмо">
-          <span class="envelope-glow"></span>
           <span class="letter">
-            <span class="letter-heart">♥</span>
+            <span class="letter-star">✦</span>
             <span class="letter-label">Для моей<br>Сонечки</span>
           </span>
           <span class="envelope-back"></span>
           <span class="envelope-front"></span>
           <span class="envelope-flap"></span>
-          <span class="seal">♥</span>
+          <span class="seal">✦</span>
         </button>
-        <p class="hint" id="hint">Нажми на конверт, любимая</p>
+        <p class="hint">Нажми на конверт, любимая</p>
       </div>
-
       <div class="message" id="message" hidden>
-        <div class="tiny-heart">♥</div>
+        <div class="tiny-star">✦</div>
         <p class="for-you">СОНЕЧКЕ, С ЛЮБОВЬЮ</p>
         <h1>Сонечка, я невероятно люблю тебя и хочу, чтобы ты всегда это помнила <span>❤️</span></h1>
-        <div class="rule"><span>♥</span></div>
+        <div class="rule"><span>✦</span></div>
         <p class="soft-text">Мне хочется, чтобы даже в самые обычные дни ты чувствовала, как много значишь для меня.</p>
         <button class="surprise-button" id="surpriseButton">Это ещё не всё… <span>♡</span></button>
       </div>
-
       <div class="last-message" id="lastMessage" hidden>
-        <div class="big-heart" aria-hidden="true">♥</div>
+        <div class="big-star" aria-hidden="true">✦</div>
         <p class="for-you">И ЕЩЁ ОДНО</p>
         <h2>Если вдруг забудешь, насколько ты особенная, просто возвращайся сюда.</h2>
         <p class="soft-text">Здесь всегда будет напоминание о том, что тебя очень-очень любят. ❤️</p>
         <button class="surprise-button secondary" id="backButton">Прочитать ещё раз ↺</button>
       </div>
     </section>
-    <p class="footer">Сделано с любовью — специально для тебя</p>
+    <p class="footer">Даже среди миллиарда звёзд ты — моя любимая</p>
   </main>
   <div class="hearts" id="hearts" aria-hidden="true"></div>
   <script src="script.js"></script>

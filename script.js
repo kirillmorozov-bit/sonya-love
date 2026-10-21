@@ -32,7 +32,7 @@ function burstHearts(count) {
   for (let i = 0; i < count; i++) {
     const heart = document.createElement('span');
     heart.className = 'floating-heart';
-    heart.textContent = Math.random() > 0.35 ? '♥' : '♡';
+    heart.textContent = Math.random() > 0.35 ? '✦' : '·';
     heart.style.left = `${Math.random() * 100}%`;
     heart.style.fontSize = `${12 + Math.random() * 19}px`;
     heart.style.animationDuration = `${3 + Math.random() * 2.5}s`;
